@@ -7,23 +7,14 @@ $ports = @(445, 3389, 22)
 # You can add the port, that you want to scan in the var. $ports. Here are examples of well-known ports that can be compromised
 
 #Port 22 (SSH) - Secure Shell
-
 #Port 80 (HTTP) - Hypertext Transfer Protocol
-
 #Port 443 (HTTPS) - HTTP Secure
-
 #Port 445 (SMB) - Server Message Block
-
 #Port 3389 (RDP) - Remote Desktop Protocol
-
 #Port 1433 (MS-SQL) - Microsoft SQL Server
-
 #Port 3306 (MySQL) - MySQL Database Server
-
 #Port 23 (TELNET) - Telnet Protocol
-
 #Port 25 (SMTP) - Simple Mail Transfer Protocol
-
 #Port 21 (FTP) - File Transfer Protocol
 
 $ipAddressesAsArray = Get-Content -Path $ipAdressesFilePath
